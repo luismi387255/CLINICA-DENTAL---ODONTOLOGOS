@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #8fb5ed;
+    padding: 60 px 0;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    max-width: 1200 px;
+    box-shadow: 0 2px 20px rgba(181, 225, 25, 0.1);
+    border-radius: 10px;
+}
+
+.nombre__mes{
+   text-align: center;
+   color: #51565d;
+   font-weight: 400;
+   padding: 30px 0;
+}
+.dias{
+     display: grid;
+     grid-template-columns: repeat(7,1fr);
+     place-items: center;
+     height: 45px;
+     border-bottom: 1px solid #1333eb1f;
+     border-top: 1px solid #a9b4f31f;
+     color: #3688fc;
+ }
+.btn1{
+    color: #7d2609; 
+    place-items: center;
+}
+.btn2{
+    color: #fc36db; 
+    place-items: center;
+}
+.calendario{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-auto-rows: 120px;
+}
+
+.calendario__dia{
+     border-bottom:  1px solid #a6a8b31f;
+     border-top:  1px solid #a6a8b31f;
+     padding: 14px 20px;
+     color: #031d08;
+}
